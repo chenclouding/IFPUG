@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">  
+<struts-config>
+	<data-sources />
+	<form-beans>
+		<form-bean name="productForm"
+			type="struts.IFPUG.form.ProductForm" />
+		<form-bean name="functionForm"
+			type="struts.IFPUG.form.FunctionForm" />
+		<form-bean name="elementaryProcessForm"
+			type="struts.IFPUG.form.ElementaryProcessForm" />
+		<form-bean name="dataFunctionForm"
+			type="struts.IFPUG.form.DataFunctionForm" />
+		<form-bean name="retForm" type="struts.IFPUG.form.RetForm" />
+		<form-bean name="detForm" type="struts.IFPUG.form.DetForm" />
+		<form-bean name="ufpCountForm"
+			type="struts.IFPUG.form.UfpCountForm" />
+		<form-bean name="ufpCountOfEpForm"
+			type="struts.IFPUG.form.UfpCountOfEpForm" />
+		<form-bean name="epDetForm" type="struts.IFPUG.form.EpDetForm" />
+		<form-bean name="fpForm" type="struts.IFPUG.form.FpForm" />
+    <form-bean name="userForm" type="struts.IFPUG.form.UserForm" />
+    
+    
+    
+    
+
+
+	</form-beans>
+
+
+
+	<global-exceptions />
+	<global-forwards>
+
+
+	</global-forwards>
+	<action-mappings>
+		<action attribute="productForm" name="productForm"
+			path="/addProduct" scope="request"
+			type="struts.IFPUG.action.AddProductAction">
+			<forward name="success"
+				path="/IFPUG/requirement/productList.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="productForm" name="productForm"
+			path="/editProduct" scope="request"
+			type="struts.IFPUG.action.EditProductAction">
+			<forward name="success"
+				path="/IFPUG/requirement/productList.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="functionForm" name="functionForm"
+			path="/addFunction" scope="request"
+			type="struts.IFPUG.action.AddFunctionAction">
+			<forward name="success"
+				path="/IFPUG/requirement/functionList.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="functionForm" name="functionForm"
+			path="/addChildFunction" scope="request"
+			type="struts.IFPUG.action.AddChildFunctionAction">
+			<forward name="success"
+				path="/IFPUG/requirement/childFunctionList.jsp"
+				contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="functionForm" name="functionForm"
+			path="/editFunction" scope="request"
+			type="struts.IFPUG.action.EditFunctionAction">
+			<forward name="success"
+				path="/IFPUG/requirement/functionList.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="functionForm" name="functionForm"
+			path="/editChildFunction" scope="request"
+			type="struts.IFPUG.action.EditChildFunctionAction">
+			<forward name="success"
+				path="/IFPUG/requirement/childFunctionList.jsp"
+				contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="elementaryProcessForm"
+			name="elementaryProcessForm" path="/addElementaryProcess"
+			scope="request"
+			type="struts.IFPUG.action.AddElementaryProcessAction">
+			<forward name="success"
+				path="/IFPUG/requirement/elementaryProcessList.jsp"
+				contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="elementaryProcessForm"
+			name="elementaryProcessForm" path="/editElementaryProcess"
+			scope="request"
+			type="struts.IFPUG.action.EditElementaryProcessAction">
+			<forward name="success"
+				path="/IFPUG/requirement/elementaryProcessList.jsp"
+				contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+
+		<action attribute="dataFunctionForm" name="dataFunctionForm"
+			path="/addDataFunction" scope="request"
+			type="struts.IFPUG.action.AddDataFunctionAction">
+			<forward name="success"
+				path="/IFPUG/dataFunction/dataFunctionList.jsp"
+				contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="dataFunctionForm" name="dataFunctionForm"
+			path="/editDataFunction" scope="request"
+			type="struts.IFPUG.action.EditDataFunctionAction">
+			<forward name="success"
+				path="/IFPUG/dataFunction/dataFunctionList.jsp"
+				contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="retForm" name="retForm" path="/addRet"
+			scope="request" type="struts.IFPUG.action.AddRetAction">
+			<forward name="success"
+				path="/IFPUG/dataFunction/retList.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="retForm" name="retForm" path="/editRet"
+			scope="request" type="struts.IFPUG.action.EditRetAction">
+			<forward name="success"
+				path="/IFPUG/dataFunction/retList.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="detForm" name="detForm" path="/addDet"
+			scope="request" type="struts.IFPUG.action.AddDetAction">
+			<forward name="success"
+				path="/IFPUG/dataFunction/detList.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="detForm" name="detForm" path="/editDet"
+			scope="request" type="struts.IFPUG.action.EditDetAction">
+			<forward name="success"
+				path="/IFPUG/dataFunction/detList.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="ufpCountForm" name="ufpCountForm"
+			path="/ufpCount" scope="request"
+			type="struts.IFPUG.action.UfpCountAction">
+			<forward name="success"
+				path="/IFPUG/dataFunction/directMethod.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="dataFunctionForm" name="dataFunctionForm"
+			path="/editDataFunction_Method" scope="request"
+			type="struts.IFPUG.action.EditDataFunction_MethodAction">
+			<forward name="success"
+				path="/IFPUG/dataFunction/directMethod.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="ufpCountForm" name="ufpCountForm"
+			path="/ufpCount_Derived" scope="request"
+			type="struts.IFPUG.action.UfpCount_DerivedAction">
+			<forward name="success"
+				path="/IFPUG/dataFunction/showDerived.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="elementaryProcessForm"
+			name="elementaryProcessForm" path="/editEpByAddMethod"
+			scope="request" type="struts.IFPUG.action.EditEpByAddMethodAction">
+			<forward name="success"
+				path="/IFPUG/transaction/addMethodToEp.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="ufpCountOfEpForm" name="ufpCountOfEpForm"
+			path="/ufpCount_Default" scope="request"
+			type="struts.IFPUG.action.UfpCount_DefaultAction">
+			<forward name="success"
+				path="/IFPUG/transaction/defaultMethod.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="ufpCountOfEpForm" name="ufpCountOfEpForm"
+			path="/ufpCount_Range" scope="request"
+			type="struts.IFPUG.action.UfpCount_RangeAction">
+			<forward name="success"
+				path="/IFPUG/transaction/rangeMethod.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="ufpCountOfEpForm" name="ufpCountOfEpForm"
+			path="/ufpCount_Value" scope="request"
+			type="struts.IFPUG.action.UfpCount_ValueAction">
+			<forward name="success"
+				path="/IFPUG/transaction/valueMethod.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="ufpCountOfEpForm" name="ufpCountOfEpForm"
+			path="/ufpCount_Complex" scope="request"
+			type="struts.IFPUG.action.UfpCount_ComplexAction">
+			<forward name="success"
+				path="/IFPUG/transaction/complexMethod.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="epDetForm" name="epDetForm" path="/addEpDet"
+			scope="request" type="struts.IFPUG.action.AddEpDetAction">
+			<forward name="success"
+				path="/IFPUG/transaction/derivedMethod.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="fpForm" name="fpForm" path="/saveProductFp"
+			scope="request" type="struts.IFPUG.action.SaveProductFpAction">
+			<forward name="success" path="/IFPUG/adjustUfp.jsp"
+				contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+		<action attribute="ufpCountOfEpForm" name="ufpCountOfEpForm"
+			path="/ufpCount_Derived_tfp" scope="request"
+			type="struts.IFPUG.action.UfpCount_Derived_tfpAction">
+			<forward name="success"
+				path="/IFPUG/transaction/showDerived.jsp" contextRelative="true" />
+			<forward name="failure" path="/IFPUG/failure.jsp"
+				contextRelative="true" />
+		</action>
+    <action
+      attribute="userForm"
+      name="userForm"
+      path="/register"
+      scope="request"
+      type="struts.IFPUG.action.RegisterAction">
+      <forward
+        name="success"
+        path="/IFPUG/ifpug.jsp"
+        contextRelative="true" />
+      <forward
+        name="failure"
+        path="/IFPUG/failure.jsp"
+        contextRelative="true" />
+    </action>
+    <action
+      attribute="userForm"
+      name="userForm"
+      path="/login"
+      scope="request"
+      type="struts.IFPUG.action.LoginAction">
+      <forward
+        name="success"
+        path="/IFPUG/ifpug.jsp"
+        contextRelative="true" />
+      <forward
+        name="failure"
+        path="/IFPUG/failure.jsp"
+        contextRelative="true" />
+    </action>
+    
+
+	</action-mappings>
+	<controller />
+</struts-config>
+
+

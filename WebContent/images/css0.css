@@ -1,0 +1,128 @@
+body { font-size: 9pt;TEXT-DECORATION: none; font-family:Verdana,Tahoma,宋体; }
+table { font-size: 9pt;  }
+TD {FONT-SIZE: 12px; COLOR: #3b3b3b; LINE-HEIGHT: 16px;}
+.bt { font-size: 14px;}
+.T1 { background-color: #2E56B4;}
+.T2 { background-color: #F1F4FC;}
+.T3 { background-color: #DAE2F5;}
+.T4 { background-color: #D1C4A3;}
+.T5 { background-color: #718BD6;}
+a { color: #0000FF; text-decoration: none ; }
+A:link {COLOR: #4F4F4F; TEXT-DECORATION: none; }
+A:visited {COLOR: #4F4F4F; TEXT-DECORATION: none; }
+A:active {COLOR: #333333; TEXT-DECORATION: none;}
+A:hover {COLOR: #333333; TEXT-DECORATION: underline; }
+.B1 {background-color: #CCCCCC;	}
+.B2 {background-color: #666666;}
+.B3 {background-color: #EBEBEB;}
+.PIC1 {border: 1px solid #666666;}
+select,Textarea{font-family:Tahoma,Verdana,宋体; font-size: 9pt;border: 1px solid #999999;}
+.INPUT1{font-family:Tahoma,Verdana,宋体; font-size: 9pt;border: 1px solid #999999;}
+.INPUT2 {
+font-family: "宋体","Verdana","Tahoma","宋体";
+font-size: 9pt;
+border-bottom-style: dotted;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 1px;
+border-left-width: 0px;
+border-bottom-color: #999999;
+}
+.S1 {background-color: #EFEFEF;}
+.S2 {background-color: #F7F7F7;}
+.S3 {background-color: #FFFFFF;}
+.S4 {background-color: #718BD6;}
+.S5 {background-color: #ECF5FF;}
+.S6 {background-color: #7B7B7B;}
+.S7 {background-color: #6BA4DC;}
+.FONT1 {color: #FFFFFF;}
+.FONT2 {color: #FF0000;}
+
+.BUTTN-FIX1
+{
+	BACKGROUND-COLOR:#e0e0d5;
+	font-size: 9pt;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: ridge;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+	border-left-style: ridge;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	height: 20px;
+}
+.btn {
+	border-right: #002d96 1px solid;
+	padding-right: 2px;
+	border-top: #002d96 1px solid;
+	padding-left: 2px;
+	font-size: 12px;
+	filter: progid: dximagetransform. microsoft. gradient(gradienttype = 0, startcolorstr = #ffffff, endcolorstr = #9dbcea);
+	border-left: #002d96 1px solid;
+	cursor: hand;
+	color: black;
+	padding-top: 2px;
+	border-bottom: #002d96 1px solid
+}
+
+.BUTTN-FIX
+{
+	BACKGROUND-COLOR:#e0e0d5;
+	font-size: 9pt;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: ridge;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+	border-left-style: ridge;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	width: 80px;
+	height: 20px;
+}
+
+.T01 {
+	BORDER-RIGHT: 1px solid #CCCCCC;
+	BORDER-LEFT: 1px solid #CCCCCC;
+	BORDER-BOTTOM: 1px solid #CCCCCC;
+	background-color: #F5F5F5;
+}
+.F1 {
+	font-size: 9pt;
+	color: #990000;
+	text-decoration: none;
+	
+}
+.F2 {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+.F3 {
+	font-size: 9pt;
+	color: #0033CC;
+	
+}
+.F4 {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	
+}
+.F5 {
+	font-size: 9pt;
+	font-weight: bold;
+}

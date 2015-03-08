@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v6.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="tools.jar"/>
+	<classpathentry kind="lib" path="swarmcache-1.0rc2.jar"/>
+	<classpathentry kind="lib" path="jgroups-2.2.7.jar"/>
+	<classpathentry kind="lib" path="cglib-full-2.0.2.jar"/>
+	<classpathentry kind="lib" path="dom4j-1.4.jar"/>
+	<classpathentry kind="lib" path="xerces-2.4.0.jar"/>
+	<classpathentry kind="lib" path="aspectjrt-1.1.1.jar"/>
+	<classpathentry kind="lib" path="junit-4.3.1.jar"/>
+	<classpathentry kind="lib" path="batik-util-1.6.jar"/>
+	<classpathentry kind="lib" path="lucene-core-2.0.0.jar"/>
+	<classpathentry kind="lib" path="lucene-analyzers-2.0.0.jar"/>
+	<classpathentry kind="lib" path="jstl-1.1.2.jar"/>
+	<classpathentry kind="lib" path="struts.jar"/>
+	<classpathentry kind="lib" path="odmg-3.0.jar"/>
+	<classpathentry kind="lib" path="jaxp.jar"/>
+	<classpathentry kind="lib" path="ant-optional-1.5.3.jar"/>
+	<classpathentry kind="lib" path="ehcache-0.9.jar"/>
+	<classpathentry kind="lib" path="concurrent-1.3.3.jar"/>
+	<classpathentry kind="lib" path="velocity-tools-view-1.0.jar"/>
+	<classpathentry kind="lib" path="jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="commons-collections-3.0.jar"/>
+	<classpathentry kind="lib" path="poi-scratchpad-3.0.1.jar"/>
+	<classpathentry kind="lib" path="commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="jaas.jar"/>
+	<classpathentry kind="lib" path="activation.jar"/>
+	<classpathentry kind="lib" path="standard-1.0.6.jar"/>
+	<classpathentry kind="lib" path="commons-pool.jar"/>
+	<classpathentry kind="lib" path="poi-2.5.1.jar"/>
+	<classpathentry kind="lib" path="struts-legacy.jar"/>
+	<classpathentry kind="lib" path="jspsmartupload.jar"/>
+	<classpathentry kind="lib" path="jfreechart-1.0.0.jar"/>
+	<classpathentry kind="lib" path="strutstest-2.1.3.jar"/>
+	<classpathentry kind="lib" path="commons-dbcp-1.2.1.jar"/>
+	<classpathentry kind="lib" path="displaytag-1.1.jar"/>
+	<classpathentry kind="lib" path="crimson-1.1.3.jar"/>
+	<classpathentry kind="lib" path="poi-3.0.1.jar"/>
+	<classpathentry kind="lib" path="junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="commons-digester.jar"/>
+	<classpathentry kind="lib" path="cewolf-1.0.jar"/>
+	<classpathentry kind="lib" path="hibernate-sources.jar"/>
+	<classpathentry kind="lib" path="commons-pool-1.2.jar"/>
+	<classpathentry kind="lib" path="xml-apis.jar"/>
+	<classpathentry kind="lib" path="hibernate2.jar"/>
+	<classpathentry kind="lib" path="displaytag-export-poi-1.1.jar"/>
+	<classpathentry kind="lib" path="gnujaxp-1.0.0.jar"/>
+	<classpathentry kind="lib" path="commons-fileupload-1.2-sources.jar"/>
+	<classpathentry kind="lib" path="httpunit-1.5.4.jar"/>
+	<classpathentry kind="lib" path="jcommon-1.0.0.jar"/>
+	<classpathentry kind="lib" path="connector.jar"/>
+	<classpathentry kind="lib" path="log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="velocity-1.4.jar"/>
+	<classpathentry kind="lib" path="commons-lang-2.1.jar"/>
+	<classpathentry kind="lib" path="struts-menu-2.4.jar"/>
+	<classpathentry kind="lib" path="hsqldb-1.7.1.jar"/>
+	<classpathentry kind="lib" path="itext-1.3.jar"/>
+	<classpathentry kind="lib" path="jcs-1.0-dev.jar"/>
+	<classpathentry kind="lib" path="mpxj-sources.jar"/>
+	<classpathentry kind="lib" path="xalan-2.4.0.jar"/>
+	<classpathentry kind="lib" path="jenkov-prizetags-bin-2.6.3.jar"/>
+	<classpathentry kind="lib" path="commons-httpclient-2.0.jar"/>
+	<classpathentry kind="lib" path="commons-validator.jar"/>
+	<classpathentry kind="lib" path="commons-logging.jar"/>
+	<classpathentry kind="lib" path="oscache-2.0.jar"/>
+	<classpathentry kind="lib" path="junit-4.3.1-src.jar"/>
+	<classpathentry kind="lib" path="jta.jar"/>
+	<classpathentry kind="lib" path="commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="jakarta-oro.jar"/>
+	<classpathentry kind="lib" path="batik-dom-1.6.jar"/>
+	<classpathentry kind="lib" path="commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="batik-awt-util-1.6.jar"/>
+	<classpathentry kind="lib" path="batik-svggen-1.6.jar"/>
+	<classpathentry kind="lib" path="mpxj.jar"/>
+	<classpathentry kind="lib" path="commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="mail.jar"/>
+	<classpathentry kind="lib" path="bootstrap.jar"/>
+	<classpathentry kind="lib" path="c3p0-0.8.4.5.jar"/>
+	<classpathentry kind="lib" path="commons-resources.jar"/>
+	<classpathentry kind="lib" path="proxool-0.8.3.jar"/>
+	<classpathentry kind="lib" path="commons-fileupload-1.2.jar"/>
+	<classpathentry kind="lib" path="cactus-13-1.6.1.jar"/>
+	<classpathentry kind="lib" path="commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="ant-1.5.3.jar"/>
+	<classpathentry kind="lib" path="batik-xml-1.6.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

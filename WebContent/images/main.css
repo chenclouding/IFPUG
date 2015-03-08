@@ -1,0 +1,445 @@
+sbody {
+	background-color: #fff;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+body {
+	font-family: verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 11px;
+		background-image: url(../../images/bline.gif);
+	/*background-color:  #e7f3f8;*//* Ç³À¶#e7f3f8*/
+ 	/*background-image: url(../../images/PaperTexture.gif);  #e7f3f8*/
+}
+
+input,td,select,textarea {
+	font-family: verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 11px;
+	text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6,p,strong,div,form,acronym,label,table,td,th,span,a,hr,code,pre,hr {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	background-repeat: no-repeat;
+	list-style-type: none;
+}
+  tr {background-color:expression((this.sectionRowIndex%2==0)?"#def":"white")}  
+/*"#def":"white" "#fea":"white"  "lightcyan":"palegoldenrod" */
+a,a:visited,a:hover {
+	color: #006600;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+
+.btn{
+ BORDER-RIGHT: #002D96 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #002D96 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#9DBCEA); BORDER-LEFT: #002D96 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; text-align:center;BORDER-BOTTOM: #002D96 1px solid
+}
+
+img {
+	border: none;
+}
+
+hr {
+	height: 1px;
+	color: #000;
+	clear: both;
+}
+
+textarea {
+	width: 80%;
+	height: 200px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h1 a {
+	color: #000;
+}
+
+div #header {
+	background-color: #fea;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 20px 10px 30px 15px;
+	margin: 10px 5% 20px 5%;
+}
+
+div #header ul {
+	margin: 10px 0 0 0;
+}
+
+div #header ul li {
+	list-style-type: none;
+	float: left;
+	padding: 0 10px 0 0;
+	font-weight: bold;
+}
+
+div #header ul li a {
+	display: block;
+	color: #f00;
+	border-left: 1px solid red;
+	padding-left: 5px;
+}
+
+div #header ul li a:hover {
+	border-left: 1px solid #000;
+}
+
+h2 {
+	font-size: 1.2em;
+	margin: 10px 0 10px 0;
+}
+
+h2 {
+	font-size: 1.1em;
+	margin: 10px 0 5px 0;
+}
+
+p {
+	margin: 0 0 10px 0;
+}
+
+acronym {
+	border-bottom: 1px dashed #000;
+	cursor: help;
+}
+
+div #body {
+	margin: 0 5% 20px 5%;
+	padding: 20px 20px 20px 20px;
+	border: 1px dashed #666;
+}
+
+div #validxhtml {
+	float: right;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px;
+	margin: 5px;
+	width: 100px;
+	text-align: center;
+}
+
+div #footer {
+	border-top: 1px solid #666;
+	padding: 5px 5px 5px 5px;
+	text-align: right;
+}
+
+div #footer span {
+	float: left;
+}
+
+/*.changed {
+	background-color: #ee0;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+}*/
+ul #stylelist {
+	margin: 0 0 30px 0;
+}
+
+ul #stylelist li {
+	list-style-type: none;
+	float: left;
+	width: 100px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	padding: 2px;
+	margin-right: 2px;
+}
+
+table {
+	width: 90%;
+	margin: 20px 0 20px 0;
+	border: 1px solid #006600;
+}
+
+
+th,td  {
+	 padding: 2px 4px 2px 4px; 
+ 	 text-align: left;
+	 vertical-align: middle;
+	/* background-color: #def;*/
+	/* border: 1px solid #006600 outset; */
+}
+
+thead tr {
+	background-color: #fc0;
+	/*#fc0*/
+}
+
+th.sorted {
+	background-color: orange;
+}
+
+th a,th a:visited {
+	color: black;
+}
+
+th a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+th.sorted a,th.sortable a {
+	background-position: right;
+	display: block;
+	width: 100%;
+}
+
+th.sortable a {
+	background-image: url(../images/arrow_off.png);
+}
+
+th.order1 a {
+	background-image: url(../images/arrow_down.png);
+}
+
+th.order2 a {
+	background-image: url(../images/arrow_up.png);
+}
+
+tr.odd {
+	background-color: #fff
+}
+
+tr.tableRowEven,tr.even {
+	background-color: #fea
+}
+
+ul #showsource {
+	float: right;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: 5px;
+	width: 100px;
+	list-style-type: none;
+}
+
+/* test styles */
+table.its thead tr {
+	background-color: #69c;
+}
+
+table.its tr.even {
+	background-color: #def;
+}
+
+table.mars thead tr {
+	background-color: #9c9;
+}
+
+table.mars tr.even {
+	background-color: #ccb;
+}
+
+table.mars tr.odd {
+	background-color: #eec;
+}
+
+table.simple thead tr {
+	background-color: #eee;
+}
+
+table.simple tr.even {
+	background-color: #fff;
+}
+
+table.simple {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+table.simple td,table.simple th {
+	border: 1px solid #ccc;
+}
+
+table.nocol tbody td,table.nocol tbody th {
+	border-left: none;
+	border-right: none;
+}
+
+table.report td,table.report th {
+	font: menu;
+}
+
+table.report th {
+	background: buttonface;
+	border-width: 1px;
+	border-style: solid;
+	border-color: threedhighlight threedshadow threedshadow threedhighlight;
+	cursor: hand;
+}
+
+table.report idcol {
+	background: buttonface;
+}
+
+table.report tr.even {
+	background-color: #399;
+}
+
+table.report tbody {
+	height: 100px;
+	overflow: auto;
+}
+
+table.report {
+	height: 120px;
+	overflow: auto;
+}
+
+table.report tbody tr {
+	height: 10px;
+}
+
+table.mark td.tableCellError {
+	background-color: #d00;
+	color: #fff;
+}
+
+table.sublist {
+	margin: 0 0 0 0;
+	width: 100%;
+}
+
+table.sublist td,table.sublist th {
+	width: 50%;
+}
+
+div.exportlinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: -10px 0 10px 0;
+	width: 89%;
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display: inline;
+	display: inline-block;
+	cursor: pointer;
+}
+
+span.excel {
+	background-image: url(../images/ico_file_excel.png);
+}
+
+span.csv {
+	background-image: url(../images/ico_file_csv.png);
+}
+
+span.xml {
+	background-image: url(../images/ico_file_xml.png);
+}
+
+span.pdf {
+	background-image: url(../images/ico_file_pdf.png);
+}
+
+span.rtf {
+	background-image: url(../images/ico_file_rtf.png);
+}
+
+span.pagebanner {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 89%;
+	margin-top: 10px;
+	display: block;
+	border-bottom: none;
+}
+
+span.pagelinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 89%;
+	display: block;
+	border-top: none;
+	margin-bottom: -5px;
+}
+
+table.simple td.textRed {
+	color: #b11;
+}
+
+/*td*/
+.tabletitle{
+	font-family: ËÎÌå;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	border: 0px solid #006600;
+	/*width: 70px;*/
+}
+
+/*td*/
+.tableitem{
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.btn3 { 
+BORDER-RIGHT: #002D96 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #002D96 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#9DBCEA); BORDER-LEFT: #002D96 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #002D96 1px solid
+} 
+
+.delimg { 
+	height: image height;
+	text-decoration:none;
+	vertical-align: top;
+	align:center; 
+} 
+
+.editimg { 
+	height: image height;
+	text-decoration:none;
+	vertical-align: top;
+	align:center;
+
+} 
+
+.checkimg { 
+	height: image height;
+	vertical-align: top;
+	align:center;
+}
+
+.selectimg { 
+	height: image height;
+	vertical-align: top;
+	align:center;
+} 
+
+.tableopr{
+	width:30px;
+	font-family: ËÎÌå;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	border: 0px solid #006600;
+	/*width: 70px;*/
+}

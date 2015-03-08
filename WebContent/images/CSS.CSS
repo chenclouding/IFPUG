@@ -1,0 +1,72 @@
+TABLE{
+border-color:#006600;
+text-align:center;
+position:relative;
+margin-bottom:inherit;
+}
+TH{
+     font-size: 16px; color:#000000 font-family: "宋体";
+}
+TD
+{
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: "Arial", "Helvetica", "sans-serif"
+}
+P
+{
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H1
+{
+    FONT-SIZE: 36px;
+    COLOR: #000000;
+    FONT-FAMILY: "华文隶书"
+}
+H2
+{
+    FONT-SIZE: 28px;
+    COLOR: #000000;
+    FONT-FAMILY: "华文隶书"
+}
+H3
+{
+    FONT-SIZE: 24px;
+    COLOR: #000000;
+    FONT-FAMILY: "华文楷体"
+}
+LI
+{
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+    TEXT-DECORATION: none
+}
+INPUT
+{
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: "Arial", "Helvetica", "sans-serif"
+}
+A:link
+{
+    COLOR: #006600;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: #006600;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: #006600;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #6699cc;
+    TEXT-DECORATION: none
+}
